@@ -12,7 +12,8 @@ set xdcfiles   [lindex $argv 3 ]
 #==================================================
 set TOPLEVEL "msftDvIp_cheri_arty7_fpga"
 #set PART "xcku115-flvb1760-1-c"
-set PART "XC7A100TCSG324-1"
+#set PART "XC7A100TCSG324-1"
+set PART "xc7a35tcsg324-1"
 set SIMTOOL "vivado"
 set FPGA_BUILD 1
 set FPGA_NAME "cheri_arty7"
