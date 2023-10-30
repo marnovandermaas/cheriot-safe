@@ -1,10 +1,11 @@
 #!/bin/bash 
  
 set -e 
+set -x
 
 #source ../scripts/common_setup.sh
 mkdir -p firmware
-cd firmware
+#cd firmware
 pwd
 
 export TESTNAME=hello_world
